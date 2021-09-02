@@ -1,0 +1,6 @@
+Algorithm text
+
+Goal
+The goal of this bubble sort program is to arrange the elements in a set of integers array in ascending order. A set of integer array with different elements is given and by running the program, the entire process of how each element in the array swaps its position with another element is outputted. The integer with greater value in the array changes its position with another integer with a smaller value. First, the printValues() function is a function that prints all the elements of the array in a formatted manner. It tells the user the elements and their order at that particular point when the program is running. The sort() function is a function that compares the values of two elements in the array at a time to decide whether their positions should be swapped.
+
+
