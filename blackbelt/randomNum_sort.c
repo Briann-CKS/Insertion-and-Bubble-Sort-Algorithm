@@ -2,6 +2,7 @@
 //generate random numbers in an array and sort the numbers
 
 #include <stdio.h>
+#include <time.h>
 #define MAX 9
 
 //function prototypes
@@ -13,10 +14,10 @@ int main()
 {
 	int c, num;
 	int values[MAX];
-
+	srand(time(0));
 	for (c = 0; c < MAX; c++) //generate 9 integers for an array 
 	{
-		num = rand() % 99 + 1; //generate random integers between 1 and 99
+		num = rand() % 90 + 10; //generate random integers between 10 and 99
 		values[c] = num; //adding the random integers to an array
 	}
 
