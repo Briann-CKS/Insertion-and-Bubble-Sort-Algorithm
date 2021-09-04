@@ -41,12 +41,12 @@ void insertion_sort()
 {
 	// declaring i, j and temp integer variables
 	int i, j, temp;
-	for (i = 1; i<MAX; i++) //using a for loop to ensure that the program runs through every element in the array and compares the values of two elements at a time before sorting them
+	for (i = 1; i<MAX; i++) //using a for loop to ensure that the program runs through every element in the array and compares the values of elements before sorting them
 	{
 		temp = values[i]; // assigning the second element in the array to the temp variable
 		j = i-1;
 
-		//using a while loop to ensure that j is not less than zero since it is responsible for accessing elements in the array. Also, the second condition allows the program to compare the value of two elements before sorting them.
+		//using a while loop to ensure that j is not less than zero since it is responsible for accessing elements in the array. Also, the second condition allows the program to compare the value of elements before sorting them.
 		while (j >= 0 && values[j]>temp)
 		{
 			values[j+1] = values[j]; //assigning the value of the first element to the second element, so the position of the element changes from the first to the second element in the array.
